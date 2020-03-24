@@ -1,0 +1,60 @@
+.clock h1 {
+  font-size: 50px;
+  padding: 0px;
+}
+
+.clock {
+  font-family: "Baloo 2", cursive;
+  font-size: 40px;
+  display: block;
+  padding: 10px;
+  background: lightgray;
+  border-radius: 20px;
+  border: solid 1px black;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.tab-headers li {
+  list-style: none;
+  border: solid 1px black;
+  background-color: lightblue;
+  padding: 5px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100px;
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: none;
+}
+
+.tab-headers li:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.tab-content {
+  background-color: lightblue;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  height: 150px;
+  padding: 5px;
+}
+
+.tabs {
+  display: block;
+  width: 300px;
+}
+
+.tab-headers {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* justify-content: space-between; */
+  /* background-color: lightblue; */
+}
